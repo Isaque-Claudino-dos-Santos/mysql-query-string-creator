@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "dev": "ts-node-dev --respawn --transpile-only src",
-    "build": "rm -rf ./build/* && tsc"
+    "publish": "rm -rf ./build/* && tsc && npm publish"
   },
   "keywords": [],
   "author": "",
