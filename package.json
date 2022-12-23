@@ -1,6 +1,6 @@
 {
   "name": "mysql-query-sc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Mysql Query String Creator",
   "main": "build/index.js",
   "scripts": {
