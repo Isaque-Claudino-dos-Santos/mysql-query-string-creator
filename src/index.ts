@@ -9,6 +9,7 @@ const createTable = query.table
   .query()
 
 console.log('\n\n')
-console.log(createTable, '\n\n')
+console.log(createTable)
+console.log('\n\n')
 
 export default QueryMysql
