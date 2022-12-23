@@ -1,3 +1,3 @@
-import QueryMysql from './QueryMysql'
+import QueryTable from './QueryTable'
 
-export default QueryMysql
+export const table: QueryTable = new QueryTable()
