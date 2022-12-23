@@ -1,11 +1,12 @@
 {
   "name": "mysq-query-sc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mysql Query String Creator",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
-    "dev": "ts-node-dev --respawn --transpile-only src"
+    "dev": "ts-node-dev --respawn --transpile-only src",
+    "publish": "rm -rf ./build/* && tsc && npm publish"
   },
   "keywords": [],
   "author": "",
