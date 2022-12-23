@@ -7,7 +7,8 @@
     "strict": true,
     "target": "ES6",
     "module": "CommonJS",
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "declaration": true
   },
   "files": ["src/index.ts"],
   "exclude": ["node_modules"],
