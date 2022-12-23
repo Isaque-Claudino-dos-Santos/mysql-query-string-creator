@@ -1,7 +1,7 @@
 {
-  "name": "mysql-query-creator",
+  "name": "mysq-query-sc",
   "version": "1.0.0",
-  "description": "Help to create querys mysql",
+  "description": "Mysql Query String Creator",
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
