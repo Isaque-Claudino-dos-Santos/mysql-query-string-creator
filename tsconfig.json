@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "allowJs": true,
+    "checkJs": true,
+    "strict": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleDetection": "force"
+  },
+  "files": ["src/index.ts"],
+  "exclude": ["node_modules"],
+  "include": ["src/*.ts", "src/**/*.ts"]
+}
