@@ -8,7 +8,7 @@ export default class CreateTable {
     return this
   }
 
-  query(): string {
-    return `create table ${this.table} ( ${this.columns.join(',')} )`
+  end(): string {
+    return `create table ${this.table} (${this.columns.join(',')})`
   }
 }
