@@ -1,6 +1,6 @@
 {
-  "name": "mysql-query-sc",
-  "version": "1.0.8",
+  "name": "mysql-qs-creator",
+  "version": "1.0.0",
   "description": "Mysql Query String Creator",
   "main": "build/index.js",
   "scripts": {
@@ -8,8 +8,16 @@
     "dev": "ts-node-dev --respawn --transpile-only src",
     "build": "rm -rf ./build/* && tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "mysql",
+    "query",
+    "string",
+    "creator"
+  ],
+  "author": {
+    "name": "Isaque Claudino dos Santos",
+    "email": "isaqueclaudino12@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.2.4",

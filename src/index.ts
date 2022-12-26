@@ -1,3 +1,3 @@
-import QueryTable from './QueryTable'
+import MysqlQueryString from './MysqlQueryString'
 
-export const table: QueryTable = new QueryTable()
+export default MysqlQueryString
