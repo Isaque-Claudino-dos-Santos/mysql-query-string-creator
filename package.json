@@ -1,10 +1,10 @@
 {
   "name": "mysql-qs-creator",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Mysql Query String Creator",
   "main": "build/index.js",
   "scripts": {
-    "test": "jest",
+    "test": "clear && jest",
     "dev": "ts-node-dev --respawn --transpile-only src",
     "build": "rm -rf ./build/* && tsc"
   },
@@ -14,6 +14,10 @@
     "string",
     "creator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Isaque-Claudino-dos-Santos/mysql-query-string-creator"
+  },
   "author": {
     "name": "Isaque Claudino dos Santos",
     "email": "isaqueclaudino12@gmail.com"
