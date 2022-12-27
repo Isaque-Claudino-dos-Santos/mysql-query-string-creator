@@ -10,23 +10,23 @@ describe('CreateTable', () => {
 
   test('table name in query', () => {
     const query = qs.table.create(table).end()
-    expect(query).toBe(`create table ${table} ()`)
+    expect(`create table ${table} ()`).toBe(query)
   })
 
   test('column in query', () => {
     const query = qs.table.create(table).column(column, []).end()
-    expect(query).toBe(`create table ${table} (${column} )`)
+    expect(`create table ${table} (${column} )`).toBe(query)
   })
 
   test('attribute column in query', () => {
     const query = qs.table.create(table).column(column, [attribute]).end()
-    expect(query).toBe(`create table ${table} (${column} ${attribute})`)
+    expect(`create table ${table} (${column} ${attribute})`).toBe(query)
   })
 
   test('attributes in query', () => {
     const query = qs.table.create(table).column(column, attributes).end()
-    expect(query).toBe(
+    expect(
       `create table ${table} (${column} ${attributes[0]} ${attributes[1]})`
-    )
+    ).toBe(query)
   })
 })
