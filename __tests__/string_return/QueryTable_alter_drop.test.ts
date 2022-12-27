@@ -1,4 +1,4 @@
-import MysqlQueryString from '../src'
+import MysqlQueryString from '../../src'
 
 const qs = new MysqlQueryString()
 
