@@ -9,6 +9,6 @@ export default class AlterTableDrop {
   }
 
   end(): string {
-    return `alter teable ${this.table} ${this.columns.join(', ')}`
+    return `alter table ${this.table} ${this.columns.join(', ')}`
   }
 }
