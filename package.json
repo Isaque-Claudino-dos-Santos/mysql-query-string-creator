@@ -1,6 +1,6 @@
 {
   "name": "mysql-qs-creator",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mysql Query String Creator",
   "main": "build/index.js",
   "scripts": {
