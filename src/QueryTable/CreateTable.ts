@@ -9,6 +9,6 @@ export default class CreateTable {
   }
 
   end(): string {
-    return `create table ${this.table} (${this.columns.join(',')})`
+    return `create table ${this.table} (${this.columns.join(', ')})`
   }
 }

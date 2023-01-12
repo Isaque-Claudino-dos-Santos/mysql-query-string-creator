@@ -29,4 +29,12 @@ describe('CreateTable', () => {
       `create table ${table} (${column} ${attributes[0]} ${attributes[1]})`
     ).toBe(query)
   })
+
+  test('mult column in query',() => {
+    const query = qs.table.create(table).column(column, attributes).column(column, attributes).end()
+
+    expect(
+      `create table ${table} (${column} ${attributes[0]} ${attributes[1]}, ${column} ${attributes[0]} ${attributes[1]})`
+    ).toBe(query)
+  })
 })
